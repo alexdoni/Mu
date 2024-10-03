@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="button_01_disabled">#c9ccd4</drawable>
+    <drawable name="button_01_normal">#07bf3f</drawable>
+    <drawable name="button_01_pressed">#06a637</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>

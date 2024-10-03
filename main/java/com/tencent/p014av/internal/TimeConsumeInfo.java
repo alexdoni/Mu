@@ -1,0 +1,50 @@
+package com.tencent.p014av.internal;
+
+/* loaded from: classes3.dex */
+public class TimeConsumeInfo {
+    public long enterroom_start = 0;
+    public long enterroom_request_auth_key_and_int_svr_conn_info_start = 0;
+    public long enterroom_net_channel_send_app_cmd_start = 0;
+    public long enterroom_net_channel_send_app_cmd_end = 0;
+    public long enterroom_request_auth_key_and_int_svr_conn_info_end = 0;
+    public long enterroom_init_avsdk_core_start = 0;
+    public long enterroom_init_avsdk_core_end = 0;
+    public long enterroom_init_audio_device_start = 0;
+    public long enterroom_init_audio_device_end = 0;
+    public long enterroom_init_video_device_start = 0;
+    public long enterroom_init_video_device_end = 0;
+    public long enterroom_request_enter_room_start = 0;
+    public long enterroom_connect_start = 0;
+    public long enterroom_connect_end = 0;
+    public long enterroom_send_request_enter_room_cmd_start = 0;
+    public long enterroom_send_request_enter_room_cmd_end = 0;
+    public long enterroom_request_enter_room_end = 0;
+    public long enterroom_end = 0;
+    public int enterroom_total = 0;
+    public int enterroom_request_auth_key_and_int_svr_conn_info = 0;
+    public int enterroom_net_channel_send_app_cmd = 0;
+    public int enterroom_init_avsdk_core = 0;
+    public int enterroom_init_audio_device = 0;
+    public int enterroom_init_video_device = 0;
+    public int enterroom_request_enter_room = 0;
+    public int enterroom_connect = 0;
+    public int enterroom_send_request_enter_room_cmd = 0;
+    public long requestview_start = 0;
+    public long requestview_send_request_cmd_start = 0;
+    public long requestview_send_request_cmd_end = 0;
+    public long requestview_end = 0;
+    public long recvdata_start = 0;
+    public long recvdata_recv_first_udt_pkg = 0;
+    public long recvdata_send_first_pkg_to_dec = 0;
+    public long recvdata_decode_first_frame_end = 0;
+    public long recvdata_discard_first_frame = 0;
+    public long recvdata_end = 0;
+    public int recv_rcvf_total = 0;
+    public int recv_rcvf_recv_first_udt_pkg = 0;
+    public int recv_rcvf_send_first_pkg_to_dec = 0;
+    public int recv_rcvf_decode_first_frame = 0;
+    public int recv_rcvf_discard_first_frame = 0;
+    public int recv_rcvf_send_first_frame_to_render = 0;
+    public int arc_vid_total = 0;
+    public int arc_vid_tinyid_to_id = 0;
+}

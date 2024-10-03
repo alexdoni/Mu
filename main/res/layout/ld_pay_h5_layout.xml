@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="end"
+        android:id="@+id/pay_dialog_close_img"
+        android:layout_width="@dimen/ld_dp_16"
+        android:layout_height="@dimen/ld_dp_16"
+        android:layout_marginTop="@dimen/ld_dp_10"
+        android:src="@drawable/ld_pay_close_img"
+        android:layout_marginEnd="@dimen/ld_dp_10"/>
+</FrameLayout>

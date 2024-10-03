@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <WebView
+        android:scrollbarStyle="insideOverlay"
+        android:id="@+id/tw_web_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/tw_iv_back_pay_way"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/drhw_return_ic"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/tw_iv_close_pay_way"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/drhw_close_ic"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

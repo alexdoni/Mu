@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@android:drawable/screen_background_light"
+    android:padding="8dp"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drhw_history_dropdown_user"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/tw_input_text_color"
+        android:ellipsize="marquee"
+        android:id="@+id/tw_history_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:singleLine="true"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/tw_account_is_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drhw_img_back"
+        android:contentDescription="@string/tw_img_desc"/>
+</LinearLayout>
